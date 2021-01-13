@@ -1,0 +1,48 @@
+<style type="text/css">
+    body {
+        font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        font-weight: 200;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    table tr td {
+        border: 1px solid black;
+        padding: 8px;
+    }
+</style>
+<html>
+
+<body>
+    <h1>Student Data</h1>
+    <p>{{header.address.college}}{{header.address.state}}</p>
+    <p>{{header.proposal.materialcost}}{{header.proposal.construction}}{{header.proposal.design}}</p>
+    <table>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Email
+            </th>
+        </tr>
+        {{#each students as |student|}}
+        <tr>
+            <td>
+                {{student.name}}
+            </td>
+            <td>
+                {{student.email}}
+            </td>
+            <td>
+                {{dateFormat student.timeline 'MMM Do'}}
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+
+</body>
+
+</html>

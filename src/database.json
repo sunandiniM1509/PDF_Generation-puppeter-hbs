@@ -1,0 +1,60 @@
+{
+  "content": {
+    "username": "Sunandini",
+    "data": "TailorBird Homes",
+    "bookAppointmentsLink": "https://www.figma.com/file/YgPARB01RUrrCUm8jAY9F4/ScaleBuilders-Wireframes",
+    "mySpaceLink": "https://www.npmjs.com/package/html5-to-pdf",
+    "myInspirationsLinks": "https://www.npmjs.com/package/handlebars",
+    "video": "https://scalebuilders-temp-dev.s3.amazonaws.com/Final.mp4",
+    "name": "John@123",
+    "email": "Eg.johnny@mail.com"
+  },
+  "header": {
+    "address": {
+      "college": "UTD",
+      "state": "Texas"
+    },
+    "proposal": {
+      "materialcost": "1000112",
+      "construction": "45693",
+      "design": "9999"
+    }
+  },
+  "students": [
+    {
+      "name": "Joy",
+      "email": "joy@example.com",
+      "city": "New York",
+      "country": "USA",
+      "timeline":"2021-09-22"
+    },
+    {
+      "name": "John",
+      "email": "John@example.com",
+      "city": "San Francisco",
+      "country": "USA",
+      "timeline":"2022-07-02"
+    },
+    {
+      "name": "Clark",
+      "email": "Clark@example.com",
+      "city": "Seattle",
+      "country": "USA",
+      "timeline":"2023-07-15"
+    },
+    {
+      "name": "Watson",
+      "email": "Watson@example.com",
+      "city": "Boston",
+      "country": "USA",
+      "timeline":"2021-04-22"
+    },
+    {
+      "name": "Tony",
+      "email": "Tony@example.com",
+      "city": "Los Angels",
+      "country": "USA",
+      "timeline":"2021-02-28"
+    }
+  ]
+}
